@@ -11,4 +11,4 @@ then
     echo "$inputText" >> "$filename"
 fi
 
-
+exec docker build -t hello_doworld:1.0 .
